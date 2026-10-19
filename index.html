@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PrimaVista Studio</title>
+  <meta name="description" content="Een iPad-app om notenlezen en piano te oefenen.">
+  <style>
+    :root {
+      --bg: #faf8f4;
+      --text: #1f1d1a;
+      --muted: #6b665e;
+      --accent: #2f6fd6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1a1917;
+        --text: #f1eee8;
+        --muted: #a39d93;
+        --accent: #7aa7f0;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.5;
+      padding: 24px 16px;
+    }
+    main { max-width: 560px; text-align: center; }
+    h1 { font-size: 2.2rem; margin: 0 0 8px; letter-spacing: -0.01em; }
+    p { margin: 0 0 16px; color: var(--muted); font-size: 1.1rem; }
+    .soon {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      font-size: 0.95rem;
+    }
+    footer { margin-top: 40px; font-size: 0.85rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>PrimaVista Studio</h1>
+    <p>Een iPad-app om notenlezen en piano te oefenen, met je eigen bladmuziek.</p>
+    <span class="soon">Binnenkort in de App Store</span>
+    <footer>© 2026 PrimaVista Studio</footer>
+  </main>
+</body>
+</html>
