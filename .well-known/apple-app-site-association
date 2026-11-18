@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["ZGZSNNZLWF.nl.vanhouten.primavista"],
+        "components": [
+          { "/": "/primavista/flat", "comment": "terugkeren na het inloggen bij Flat" }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["ZGZSNNZLWF.nl.vanhouten.primavista"]
+  }
+}
